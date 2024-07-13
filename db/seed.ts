@@ -12,24 +12,24 @@ export default async function seed() {
 		{id: 7, titulo: "arquitectura e interiorismo", descripcion: 'Diseño y desarrollo de arquitectura e interiorismo, ya sea en proyectos comerciales, habitacionales o corporativos. Conceptualización, elaboración de planos arquitectónicos y de permisos, levantamientos, renders, recorridos virtuales. Producimos señaletica coorporativa de gran calidad.', img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1714516496/agency/Social/bs9i50vnxw1qbbvyli7r.webp'},
 	]),
 	await db.insert(agency_banners).values([
-		{id: 4, proyect: "Ladrillo", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123696/agency/agency_banner/mmoxjhww6ng7mr94bdl1.webp'},
+		{id: 4, proyect: "Ladrillo Empanadas", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123696/agency/agency_banner/mmoxjhww6ng7mr94bdl1.webp'},
 		{id: 5, proyect: "Umikumo", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123697/agency/agency_banner/fqv2aiy04z9r079ix1tn.webp'},
 		{id: 6, proyect: "El Almacen", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123697/agency/agency_banner/bghho5y2zyy5slj89yju.webp'},
-		{id: 7, proyect: "Ladrillo", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123698/agency/agency_banner/rbpojty3hngcd0tmxxq4.webp'},
-		{id: 8, proyect: "Almacen", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123698/agency/agency_banner/egfuoggqw6dggxy9ugqa.webp'},
-		{id: 9, proyect: "Ladrillo", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123696/agency/agency_banner/mmoxjhww6ng7mr94bdl1.webp'},
-		{id: 10, proyect: "Lake Shore", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123701/agency/agency_banner/jce1xez5wc8grnaldzsg.webp'},
-		{id: 11, proyect: "Almacen", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123700/agency/agency_banner/pvjoy5lx1ralaqlnfppe.webp"'},
-		{id: 12, proyect: "Ladrillo", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123698/agency/agency_banner/egfuoggqw6dggxy9ugqa.webp'},
-		{id: 13, proyect: "Ladrillo", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123699/agency/agency_banner/tjl7lg619n8ddis3l9vl.webp'},
+		{id: 7, proyect: "Ladrillo Empanadas", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123698/agency/agency_banner/rbpojty3hngcd0tmxxq4.webp'},
+		{id: 8, proyect: "El Almacen", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123698/agency/agency_banner/egfuoggqw6dggxy9ugqa.webp'},
+		{id: 9, proyect: "Ladrillo Empanadas", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123696/agency/agency_banner/mmoxjhww6ng7mr94bdl1.webp'},
+		{id: 10, proyect: "Lago de Plata", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123701/agency/agency_banner/jce1xez5wc8grnaldzsg.webp'},
+		{id: 11, proyect: "El Almacen", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123700/agency/agency_banner/pvjoy5lx1ralaqlnfppe.webp'},
+		{id: 12, proyect: "Ladrillo Empanadas", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123698/agency/agency_banner/egfuoggqw6dggxy9ugqa.webp'},
+		{id: 13, proyect: "Ladrillo Empanadas", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123699/agency/agency_banner/tjl7lg619n8ddis3l9vl.webp'},
 		{id: 14, proyect: "Umikumo", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123699/agency/agency_banner/jfcidkrjwk52o5luijpj.webp'},
-		{id: 15, proyect: "Umisama", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123700/agency/agency_banner/ybdf4qjqqcfqrk7biqz7.webp'},
-		{id: 16, proyect: "Ladrillo", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123701/agency/agency_banner/tlb8bnfw8nw4dj59zuhm.webp'},
-		{id: 17, proyect: "Almacen", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123702/agency/agency_banner/skcxqqoznwa7dusyytfw.webp'},
-		{id: 18, proyect: "Lago de plata", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123702/agency/agency_banner/kkho3fwclelweagc4qct.webp'},
+		{id: 15, proyect: "Umisama Sushi Bar", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123700/agency/agency_banner/ybdf4qjqqcfqrk7biqz7.webp'},
+		{id: 16, proyect: "Ladrillo Empanadas", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123701/agency/agency_banner/tlb8bnfw8nw4dj59zuhm.webp'},
+		{id: 17, proyect: "El Almacen", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123702/agency/agency_banner/skcxqqoznwa7dusyytfw.webp'},
+		{id: 18, proyect: "Lago de Plata", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123702/agency/agency_banner/kkho3fwclelweagc4qct.webp'},
 		{id: 19, proyect: "Umikumo", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123703/agency/agency_banner/ywrvo0g7fiiijbbhstim.webp'},
-		{id: 20, proyect: "Umisama", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123703/agency/agency_banner/o5mlp0jr2xb7fgludn0a.webp'},
-		{id: 21, proyect: "Real Steak", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123704/agency/agency_banner/goflr3igxdnbkcqmxruf.webp'},
+		{id: 20, proyect: "Umisama Sushi Bar", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123703/agency/agency_banner/o5mlp0jr2xb7fgludn0a.webp'},
+		{id: 21, proyect: "Lago de Plata", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123704/agency/agency_banner/goflr3igxdnbkcqmxruf.webp'},
 		{id: 22, proyect: "Umikumo", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123704/agency/agency_banner/hpsjffgkyevhgylb2k0v.webp'},
 		{id: 23, proyect: "Umikumo", img_social: 'https://res.cloudinary.com/dp9ldjfem/image/upload/v1711123705/agency/agency_banner/ti7n7qtwiibb3sbhq3xt.webp'},
 
@@ -121,8 +121,9 @@ export default async function seed() {
 						]
 				]
 			},
-		miniatura: "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812044/agency/agency_clientes/d8nsnlb6rehscfcfzpdk.webp",
-		tags: "Branding / Web / Social Media"
+			miniatura: "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812044/agency/agency_clientes/d8nsnlb6rehscfcfzpdk.webp",
+			tags: "Branding / Web / Social Media",
+			to_projects: "Ladrillo Empanadas, Umikumo, Umisama Sushi Bar"
 	},
 
 
@@ -216,8 +217,9 @@ export default async function seed() {
 					]
 			]
 		},
-		miniatura: "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812044/agency/agency_clientes/d8nsnlb6rehscfcfzpdk.webp",
-		tags: "Branding / Web / Social Media"
+		miniatura: "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812045/agency/agency_clientes/epgskcegbrcnehpco98c.webp",
+		tags: "Branding / Web / Social Media",
+		to_projects: "Samfrut, Taster Meats, Lago de Plata"
 	},
 
 	{
@@ -287,7 +289,8 @@ export default async function seed() {
 			]
 		},
 		miniatura: "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812044/agency/agency_clientes/xu6dtch7v0eq5vuzzalv.webp",
-		tags: "Branding / Web / Social Media"
+		tags: "Branding / Web / Social Media",
+		to_projects: "El Almacen, Umikumo, Umisama Sushi Bar"
 	},
 
 	{
@@ -331,7 +334,8 @@ export default async function seed() {
 			]
 		},
 		miniatura: "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812044/agency/agency_clientes/itqngn8enbouj7cxqsjt.webp",
-		tags: "Branding / Web / Social Media"
+		tags: "Branding / Web / Social Media",
+		to_projects: "Fresam, SoA Mobiliario, Taster Meats"
 	},
 
 	{
@@ -391,7 +395,8 @@ export default async function seed() {
 			]
 		},
 		miniatura: "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812044/agency/agency_clientes/lukffsbmidhfaeks1nic.webp",
-		tags: "Branding / Web / Social Media"
+		tags: "Branding / Web / Social Media",
+		to_projects: "Fresam, Lago de Plata, SoA Mobiliario"
 	},
 
 	{
@@ -421,7 +426,8 @@ export default async function seed() {
 			]
 		},
 		miniatura: "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812044/agency/agency_clientes/p4sgwofavhy948mf26bi.webp",
-		tags: "Branding / Web / Social Media"
+		tags: "Branding / Web / Social Media",
+		to_projects: "Lago de Plata, Samfrut, Taster Meats"
 	},
 
 	{
@@ -506,7 +512,8 @@ export default async function seed() {
 			]
 		},
 		miniatura: "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812045/agency/agency_clientes/fwf714fh2itysflondux.webp",
-		tags: "Branding / Web / Social Media"
+		tags: "Branding / Web / Social Media",
+		to_projects: "Fresam, Samfrut, SoA Mobiliario"
 	},
 
 	{
@@ -560,8 +567,9 @@ export default async function seed() {
 					]
 			]
 		},
-		miniatura: "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812045/agency/agency_clientes/fwf714fh2itysflondux.webp",
-		tags: "Branding / Web / Social Media"
+		miniatura: "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812045/agency/agency_clientes/pidihks1za4ctx1bmand.webp",
+		tags: "Branding / Web / Social Media",
+		to_projects: "El Almacen, Ladrillo Empanadas, Umikumo"
 	},
 
 	{
@@ -579,74 +587,75 @@ export default async function seed() {
 		images:{
 			img:[
 				[
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952961/agency/tastermeats/qh6s8s14cvgr8guxaohf.webp",
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952962/agency/tastermeats/gtfl9clu34ttnjex84r9.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886884/agency/umikumo/vsiboijvsqait8aokhjg.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886884/agency/umikumo/mpyteszddwxmqwm4se5f.webp",
+					"web"
+					],
+					[
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886885/agency/umikumo/sh0qekotqx4gw8cdocrp.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886886/agency/umikumo/pbpmosmvdbtzlv0lz2ro.webp",
+					"web"
+					],
+					[
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886887/agency/umikumo/yoq9hnlzsv0kalwuxc2t.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886887/agency/umikumo/vfxgbfgev4rcbwibxumq.webp",
+					"web"
+					],
+					[
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886888/agency/umikumo/hggb1qazgbhlwgf2v0uq.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886889/agency/umikumo/kq24acmgwrvuyjyluztu.webp",
+					"web"
+					],
+					[
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886890/agency/umikumo/q6hzu2c2nxghnvmlpo48.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886891/agency/umikumo/al6xvljskiflak7kvcbk.webp",
+					"web"
+					],
+					[
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886891/agency/umikumo/aygbtqlmb58w9cruxtxy.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886892/agency/umikumo/pwrihfwnoxocxgcppoi8.webp",
 					"branding"
 					],
 					[
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952963/agency/tastermeats/sjdmqcjian9n4zlplbse.webp",
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952963/agency/tastermeats/vub1h0lggrjhcswrywht.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886893/agency/umikumo/ynoc9ickhhnsmuoygfxh.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886894/agency/umikumo/gwrt97nbm7udfr0glk2i.webp",
 					"branding"
 					],
 					[
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952964/agency/tastermeats/cjcnnidbqwwrmncgeetx.webp",
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952965/agency/tastermeats/bnlrjjio0k4mbkypbmus.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886895/agency/umikumo/pwvnijepvydzwt7nojzj.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886895/agency/umikumo/umsmlasearhkqaetqqco.webp",
 					"branding"
 					],
 					[
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952966/agency/tastermeats/jouc1qlmkddyllfktspv.webp",
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952967/agency/tastermeats/wwutfjs35bb24rxosdto.webp",
-					"branding"
-					],
-					[
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952968/agency/tastermeats/dnckleqp0gnqw1j94c7o.webp",
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952968/agency/tastermeats/zcpwv3ch7jnctqacuwoy.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886896/agency/umikumo/eadzcakuqaudemne5t6b.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886897/agency/umikumo/zftqcwd7tfabsgp5sbah.webp",
 					"social media"
 					],
 					[
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952969/agency/tastermeats/p2mrkhr8v4ko82coxg53.webp",
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952970/agency/tastermeats/iwzmzawtyw5opsxiwiew.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886898/agency/umikumo/hu6w5grhroetgzsd6fcb.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886898/agency/umikumo/y9g3fsbkzwcfo5gaxn12.webp",
 					"social media"
 					],
 					[
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952971/agency/tastermeats/m3sw6jhig4q1uzo8k1jr.webp",
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952971/agency/tastermeats/slvieupbjufybc3bnnid.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886899/agency/umikumo/vyzrwugz9xjmiqeearnm.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886900/agency/umikumo/ehgt2u1oyor3lndxmh3l.webp",
 					"social media"
 					],
 					[
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710952999/agency/tastermeats/csgfq6kjavfiydnrejgi.webp",
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710953000/agency/tastermeats/nqrakgzciokllxvzlzru.webp",
-					"foto y video"
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886901/agency/umikumo/srqry8kvomggbfesfeku.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886901/agency/umikumo/n8dkmeuixe1pwdqn6r9k.webp",
+					"social media"
 					],
 					[
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710953001/agency/tastermeats/ofbwkqxaz5cjwnaki6ar.webp",
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710953002/agency/tastermeats/idoer2hi6uavog2fre2f.webp",
-					"foto y video"
-					],
-					[
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710953003/agency/tastermeats/v35eghpi1grzcb4srsu7.webp",
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710953004/agency/tastermeats/weknsttnlcf4av6wisca.webp",
-					"foto y video"
-					],
-					[
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710953005/agency/tastermeats/cphytwwum65fsbe2w7so.webp",
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710953005/agency/tastermeats/gb8tx4u9lcsnwo6vksas.webp",
-					"stands y produccion"
-					],
-					[
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710953007/agency/tastermeats/l0v5ebixvjcvc2yuwria.webp",
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710953007/agency/tastermeats/biaw8lqak78jmztpsu2x.webp",
-					"stands y produccion"
-					],
-					[
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710953008/agency/tastermeats/zy6m9x88gpcqngavccek.webp",
-					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710953009/agency/tastermeats/mygm6nfhcnlcum4scnjd.webp",
-					"branding"
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886902/agency/umikumo/ql7jn6riwiql5jfcyxp3.webp",
+					"https://res.cloudinary.com/dp9ldjfem/image/upload/v1710886903/agency/umikumo/e1q9uujfigfykcb5dmxe.webp",
+					"social media"
 					]
 			]
 		},
-		miniatura: "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812045/agency/agency_clientes/fwf714fh2itysflondux.webp",
-		tags: "Branding / Web / Social Media"
+		miniatura: "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812044/agency/agency_clientes/w8tfx7hnmmyhuwsteic5.webp",
+		tags: "Branding / Web / Social Media",
+		to_projects: "El Almacen, Ladrillo Empanadas, Umisama Sushi Bar"
 	},
 	
 	])

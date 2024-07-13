@@ -20,6 +20,7 @@ const  agency_projects = defineTable({
     images: column.json(),
     miniatura: column.text(),
     tags: column.text(),
+    to_projects: column.text(),
   }
 })
 
