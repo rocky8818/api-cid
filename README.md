@@ -9,3 +9,8 @@ Para que los proyectos, se puedan utilizar en dev, fue necesario agregarle un ta
 
 ## Endpoints
 La api tiene 6 endpoints, (getbanners, getservices, getprojects) estos te devuelven la colección completa de sus productos. También están los endpoints, onebanner/[id] oneproject/[id] y oneservice/[id]
+
+
+## Test endpoints
+- run `npm run dev`
+- You will see the json exposed on this url 'http://localhost:xxxx/api/getProjects' 
