@@ -26,7 +26,7 @@ const  agency_projects = defineTable({
 
 const  agency_banners = defineTable({
   columns: {
-    id: column.number({primaryKey: true}),
+    id: column.number(),
     proyect: column.text(),
     img_social: column.text(),
   }
