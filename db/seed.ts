@@ -712,6 +712,7 @@ export default async function seed() {
 				tags: "Branding / Foto y video / Social Media",
 				to_projects: "El Almacen, Ladrillo Empanadas, Umisama Sushi Bar"
 			},
+			
 			{
 				id: 10,
 				titulo: "Fletes Nueva Galicia",
@@ -845,6 +846,7 @@ export default async function seed() {
 				tags: "Branding / Web ",
 				to_projects: "Fresam, SoA Mobiliario, Taster Meats"
 			},
+
 			{
 				id: 11,
 				titulo: "Promakers",
