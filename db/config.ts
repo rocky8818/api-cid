@@ -29,6 +29,7 @@ const  agency_banners = defineTable({
     id: column.number(),
     proyect: column.text(),
     img_social: column.text(),
+    width: column.text(),
   }
 })
 
