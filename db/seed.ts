@@ -50,15 +50,7 @@ export default async function seed() {
         "Gestión y producción de sesiones de foto y video, product shot, retoque fotográfico, animacion 2d y 3d, guión, producción y postproducción de videos promocionales, comerciales, corporativos, audiovisuales, informativos, audios y musicalización.",
       img_social:
         "https://res.cloudinary.com/dp9ldjfem/image/upload/v1714516496/agency/Social/zg36vsk6fvap7yq3aiqn.webp",
-    },
-    {
-      id: 7,
-      titulo: "arquitectura e interiorismo",
-      descripcion:
-        "Diseño y desarrollo de arquitectura e interiorismo, ya sea en proyectos comerciales, habitacionales o corporativos. Conceptualización, elaboración de planos arquitectónicos y de permisos, levantamientos, renders, recorridos virtuales. Producimos señaletica coorporativa de gran calidad.",
-      img_social:
-        "https://res.cloudinary.com/dp9ldjfem/image/upload/v1714516496/agency/Social/bs9i50vnxw1qbbvyli7r.webp",
-    },
+    }
   ]),
     await db.insert(agency_banners).values([
       {
@@ -447,7 +439,7 @@ export default async function seed() {
         miniatura:
           "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812045/agency/agency_clientes/epgskcegbrcnehpco98c.webp",
         tags: "Branding / Web / Stands y produccion",
-        to_projects: "Samfrut, Taster Meats, Lago de Plata",
+        to_projects: "Samfrut, Taster Meats, MiBici",
       },
 
       {
@@ -1038,7 +1030,7 @@ export default async function seed() {
         miniatura:
           "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812044/agency/agency_clientes/368x390_w7clos.webp",
         tags: "Branding / Web",
-        to_projects: "Fresam, SoA Mobiliario, Taster Meats",
+        to_projects: "MiBici, TCy+, Promakers",
       },
 
       {
@@ -1163,7 +1155,7 @@ export default async function seed() {
         miniatura:
           "https://res.cloudinary.com/dp9ldjfem/image/upload/v1713812044/agency/agency_clientes/368x390-1_wnxfah.webp",
         tags: "Branding / Web",
-        to_projects: "Fresam, SoA Mobiliario, Taster Meats",
+        to_projects: "Fresam, TCy+, Promakers",
       },
 
       {
@@ -1335,6 +1327,153 @@ export default async function seed() {
           "https://res.cloudinary.com/dp9ldjfem/image/upload/v1739812805/agency/agency_clientes/368x390_ixwpat.webp",
         tags: "Branding",
         to_projects: "Luxury Stone, SoA Mobiliario, Lago de Plata",
+      },
+
+      {
+        id: 14,
+        titulo: "TCy+",
+        portada:
+          "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492950/agency/tcy/TCyMas_01_g0eg39.webp",
+        portada_sm:
+          "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492946/agency/tcy/TCyMas_14_wh4vpf.webp",
+        descripcion: {
+          text: [
+            "TCy+ es una de las principales empresas de venta de tecnología y cómputo en el país, ofreciendo un catálogo extenso de productos que abarca desde equipos de alto rendimiento hasta accesorios y soluciones para el hogar y la oficina. Con una sólida presencia en el sector, se ha consolidado como un referente para clientes que buscan innovación, calidad y un servicio excepcional.",
+            "Para potenciar su crecimiento y optimizar la experiencia de sus clientes, se desarrolló una mega tienda en línea capaz de administrar y procesar más de 30 mil productos de manera eficiente. La plataforma fue diseñada con una arquitectura robusta que garantiza velocidad, estabilidad y una navegación intuitiva, permitiendo a los usuarios encontrar lo que necesitan con facilidad.",
+            "El proyecto abarcó un diseño UX/UI impecable, alineado con la identidad de la marca, el perfil de sus clientes y la operación de la tienda. Cada detalle fue cuidadosamente trabajado para ofrecer una experiencia de compra fluida, atractiva y funcional, asegurando que TCy+ continúe liderando en el competitivo mundo del comercio electrónico.",
+          ],
+        },
+        images: {
+          img: [
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492944/agency/tcy/TCyMas_2_cegbvw.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492947/agency/tcy/TCyMas_15_n2f7t3.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492949/agency/tcy/TCyMas_3_ebgeqi.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492947/agency/tcy/TCyMas_16_sokczg.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492944/agency/tcy/TCyMas_4_te0twf.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492945/agency/tcy/TCyMas_17_avvpny.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492946/agency/tcy/TCyMas_5_bjdygn.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492950/agency/tcy/TCyMas_18_tdyrxl.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492945/agency/tcy/TCyMas_6_jayizy.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492945/agency/tcy/TCyMas_19_zsafox.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492951/agency/tcy/TCyMas_7_coqcq0.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492948/agency/tcy/TCyMas_20_bynu6t.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492944/agency/tcy/TCyMas_9_hzfv8i.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492949/agency/tcy/TCyMas_21_tj5qhq.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492949/agency/tcy/TCyMas_8_hflibf.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492948/agency/tcy/TCyMas_22_cxmwib.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492952/agency/tcy/TCyMas_10_m00ddx.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492946/agency/tcy/TCyMas_23_a3kbgd.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492948/agency/tcy/TCyMas_11_mz7wom.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492952/agency/tcy/TCyMas_24_pwlo4i.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492951/agency/tcy/TCyMas_12_odwcro.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492952/agency/tcy/TCyMas_25_dloybg.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492951/agency/tcy/TCyMas_13_bwsrqg.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492953/agency/tcy/TCyMas_26_inswho.webp",
+              ["desarrollo web y apps"],
+            ],
+          ],
+        },
+        miniatura:
+          "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742492775/agency/thumbs/TCyMas_27_gbxa3y.webp",
+        tags: "desarrollo web y apps",
+        to_projects: "Promakers, Fletes Nueva Galicia, Fresam",
+      },
+      {
+        id: 15,
+        titulo: "MiBici",
+        portada:
+          "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921245/agency/mibici/MiBici_01_lqoga2.webp",
+        portada_sm:
+          "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921246/agency/mibici/MiBici_10_xwlwh9.webp",
+        descripcion: {
+          text: [
+            "MiBici es el sistema de bicicletas públicas del Gobierno de Jalisco, ofreciendo a los ciudadanos una alternativa de movilidad ágil y sostenible. Su aplicación móvil es clave para gestionar viajes y acceder a información en tiempo real.",
+            "El proyecto consistió en mejorar la app, corrigiendo errores y optimizando su rendimiento. Se añadieron funciones como el escaneo de códigos QR para liberar bicicletas y se mejoró la estabilidad general, brindando una experiencia más fluida.",
+            "También se incorporó el modo oscuro, mejorando la visibilidad en entornos de poca luz y optimizando el consumo de batería. Con estas mejoras, MiBici evoluciona para ofrecer un servicio más eficiente y accesible.",
+          ],
+        },
+        images: {
+          img: [
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921245/agency/mibici/MiBici_2_upa1gb.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921246/agency/mibici/MiBici_11_mihlpt.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921246/agency/mibici/MiBici_3_gwzpuh.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921248/agency/mibici/MiBici_17_tggpsm.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921246/agency/mibici/MiBici_4_m6x7gz.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921248/agency/mibici/MiBici_18_bjtfjn.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921246/agency/mibici/MiBici_5_uviwog.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921246/agency/mibici/MiBici_12_llaqec.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921246/agency/mibici/MiBici_6_vhr6km.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921247/agency/mibici/MiBici_13_ebvn3y.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921246/agency/mibici/MiBici_7_kijhs4.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921248/agency/mibici/MiBici_14_gjyxxh.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921246/agency/mibici/MiBici_8_eey40o.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921248/agency/mibici/MiBici_15_nr5fcl.webp",
+              ["desarrollo web y apps"],
+            ],
+            [
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921246/agency/mibici/MiBici_9_xmydh3.webp",
+              "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921248/agency/mibici/MiBici_16_zw11zg.webp",
+              ["desarrollo web y apps"],
+            ],
+          ],
+        },
+        miniatura:
+          "https://res.cloudinary.com/dp9ldjfem/image/upload/v1742921336/agency/thumbs/Mi_bici_thumb_jytiyy.webp",
+        tags: "desarrollo web y apps",
+        to_projects: "TCy+, Fletes Nueva Galicia, Fresam",
       },
     ]);
 }
